@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.uppernav{
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 5px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for color change */
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-item span {
+    margin-top: 5px;
+    color:black;
+}
+
+.nav-item:hover {
+    border-bottom: 5px solid transparent;
+    background-color: #555; /* Background color on hover */
+}
+
+.nav-item:nth-child(1):hover {
+    background-color: grey; /* Home hover color */
+}
+
+.nav-item:nth-child(2):hover {
+    background-color: #e3350d; /* Pokedex hover color */
+}
+
+.nav-item:nth-child(3):hover {
+    background-color: #ee6b2f; /* Video Games & Apps hover color */
+}
+
+.nav-item:nth-child(4):hover {
+    background-color:#e6bc2f ;  /* Trading Card Game hover color */
+}
+
+.nav-item:nth-child(5):hover {
+    background-color:#2ECC71 ; /* Animation hover color */
+}
+
+.nav-item:nth-child(6):hover {
+    background-color: #30a7d7 ; /* Play! Pokemon Events hover color */
+}
+
+.nav-item:nth-child(7):hover {
+    background-color: #1b53ba; /*News hover color*/
+}
+.nav-item:nth-child(1){
+    border-bottom: 5px solid grey ;
+
+}
+.nav-item:nth-child(2){
+    border-bottom: 5px solid #e3350d ;
+}
+.nav-item:nth-child(3){
+    border-bottom: 5px solid #ee6b2f ;
+}
+.nav-item:nth-child(4){
+    border-bottom: 5px solid #e6bc2f ;
+}
+.nav-item:nth-child(5){
+    border-bottom: 5px solid #2ECC71 ;
+}
+.nav-item:nth-child(6){
+    border-bottom: 5px solid #30a7d7 ;
+}
+.nav-item:nth-child(7){
+    border-bottom: 5px solid #1b53ba ;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120vh;
+    position: relative;
+}
+
+.image-container {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-container.one {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+
+.image-container.two {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 730px;
+}
+
+.image-container.three {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 730px;
+}
+.image-container.four{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 405px;
+    left: 220px;
+
+}
+.image-container.five{
+    position: absolute;
+    top:405px ;
+    left: 490px;
+
+}
+.image-container.six{
+    position: absolute;
+    top: 520px;
+    left: 730px;
+    
+}
+
+.image-scroller{
+    display: flex;
+}
+
+.image-container {
+    width: 20vh;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    padding-right: 50px;
+}
+
+
+
